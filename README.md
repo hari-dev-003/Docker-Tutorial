@@ -41,17 +41,17 @@ ____________________________________
 ## Docker Commands
 
 
-> **Docker pull** - Pull an image from a registry
+**Docker pull** - Pull an image from a registry
 ```
 docker pull <image_name>
 ```
 
-> **Docker images** - Lists images in our account
+**Docker images** - Lists images in our account
 ```
 docker images
 ```
 
-> **Docker run** - Creates a container of the image and Runs it
+**Docker run** - Creates a container of the image and Runs it
 
 **flags**
 - **-d**: Detached mode: Run container in background
@@ -63,7 +63,7 @@ docker images
 docker run <image_name>
 ```
 
-> **Docker ps** - Lists the Containers that is running currently
+**Docker ps** - Lists the Containers that is running currently
 
 **flags**
 - **-a**: Show all containers (including stopped ones)
@@ -73,25 +73,25 @@ docker run <image_name>
 - **-n**: Show the number of containers that are running
 - **-s**: Show the size of the container
 
-> **Docker start** - Starts the Specified container
+**Docker start** - Starts the Specified container
 ```
 docker start <container_id> or <container_name>
 
 ```
-> **Docker stop** - Stops the running container 
+**Docker stop** - Stops the running container 
 
 ```
 docker stop <container_id> or <container_name>
 ```
-> **Docker rm** - Removes the container
+**Docker rm** - Removes the container
 ```
 docker rm <container_id> or <container_name>
 ```
-> **Docker rmi** - Removes the existing image 
+**Docker rmi** - Removes the existing image 
 ```
 docker rmi <image_id> or <image_name>
 ```
-> **Docker exec** - Runs a command in a running container
+**Docker exec** - Runs a command in a running container
 ```
 docker exec -it <container_id> <command>
 ```
