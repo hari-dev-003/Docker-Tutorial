@@ -72,6 +72,9 @@ docker run <image_name>
     - **-l**: Show the latest created container
     - **-n**: Show the number of containers that are running
     - **-s**: Show the size of the container
+```
+docker ps
+```
 
 **Docker start** - Starts the Specified container
 ```
