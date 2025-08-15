@@ -53,11 +53,11 @@ docker images
 
 **Docker run** - Creates a container of the image and Runs it
 
-**flags**
-- **-d**: Detached mode: Run container in background
-- **-p**: Port mapping: Maps a container port to a host port
-- **-v**: Volume mapping: Maps a container directory to a host directory
-- **-it**: Interactive mode: Allocates a pseudo-TTY and keeps STDIN open ev
+ - **flags**
+    - **-d**: Detached mode: Run container in background
+    - **-p**: Port mapping: Maps a container port to a host port
+    - **-v**: Volume mapping: Maps a container directory to a host directory
+    - **-it**: Interactive mode: Allocates a pseudo-TTY and keeps STDIN open ev
 
 ```
 docker run <image_name>
@@ -65,13 +65,13 @@ docker run <image_name>
 
 **Docker ps** - Lists the Containers that is running currently
 
-**flags**
-- **-a**: Show all containers (including stopped ones)
-- **-f**: Filter output based on conditions
-- **-q**: Only display container IDs
-- **-l**: Show the latest created container
-- **-n**: Show the number of containers that are running
-- **-s**: Show the size of the container
+ - **flags**
+    - **-a**: Show all containers (including stopped ones)
+    - **-f**: Filter output based on conditions
+    - **-q**: Only display container IDs
+    - **-l**: Show the latest created container
+    - **-n**: Show the number of containers that are running
+    - **-s**: Show the size of the container
 
 **Docker start** - Starts the Specified container
 ```
